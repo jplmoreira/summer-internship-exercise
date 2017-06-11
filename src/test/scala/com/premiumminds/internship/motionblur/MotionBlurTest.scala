@@ -30,7 +30,7 @@ class MotionBlurTest extends FunSuite {
       val result = Await.result(step1, 10.seconds)
 
       assert(result === List(
-        List(2, 3, 5),
+        List(3, 3, 4),
         List(4, 5, 6),
         List(6, 7, 8)
       ))
